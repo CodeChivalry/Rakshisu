@@ -1,6 +1,6 @@
 import gemini-1.0-pro-001.py
 import pii-detection.py
-
+import NotoSansKannada_Condensed-Black.ttf
 
 charge_sheeted_details_variables_object = {
     "csd_district_name_mask": {
