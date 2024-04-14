@@ -1,4 +1,4 @@
-import time
+"""import time
 import base64
 from typing import Optional
 from google.auth import credentials as auth_credentials
@@ -97,4 +97,4 @@ def gemini(pii_type,i):
             return        
         result=generate(text1)
         for word in result:
-            st.text(word.text)
+            st.text(word.text)"""
