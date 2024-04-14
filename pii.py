@@ -4,9 +4,9 @@ from azure.core.credentials import AzureKeyCredential
 import streamlit as st
 
 # Retrieve secrets from environment variables
-azure_key = st.secrets["AZURE_KEY"]
-azure_endpoint = st.secrets["AZURE_ENDPOINT"]
-azure_location = st.secrets["AZURE_LOCATION"]
+azure_key = os.environ['AZURE_KEY']
+azure_endpoint = os.environ['AZURE_ENDPOINT']
+azure_location = os.environ['AZURE_LOCATION']
 
 # Authenticate the client using key, endpoint, and location
 def authenticate_client():
