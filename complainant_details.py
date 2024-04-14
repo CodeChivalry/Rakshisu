@@ -1,3 +1,7 @@
+import gemini-1.0-pro-001.py
+import pii-detection.py
+import NotoSansKannada_Condensed-Black.ttf
+
 complainant_details_data_variables_object = {
     "cd_district_name_mask": {
         "value": False,
