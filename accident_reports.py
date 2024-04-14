@@ -1,6 +1,8 @@
 import NotoSansKannada_Condensed-Black.ttf
 import gemini-1.0-pro-001.py
 import pii-detection.py
+import pandas as pd
+import numpy as np
 accident_reports_variables_object = {
     "ar_district_name_mask": {
         "value": False,
