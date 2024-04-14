@@ -200,10 +200,6 @@ soupsieve==2.4.1
 srsly==2.4.8
 starlette==0.27.0
 tenacity==8.2.3
-tensorboard==2.11.2
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorboardX==2.6.2.2
 tensorflow==2.11.0
 tensorflow-estimator==2.11.0
 tensorflow-intel==2.11.0
@@ -223,7 +219,6 @@ torchvision==0.13.1
 tornado==6.2
 tqdm==4.66.0
 traitlets==5.9.0
-transformers==4.20.1
 typer==0.4.2
 typing_extensions==4.7.1
 tzdata==2024.1
