@@ -1,7 +1,15 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-
+import FIR_details.py
+import MOB_details.py
+import accident_reports.py
+import accused_details.py
+import arrest_person_details.py
+import charge_sheeted_details.py
+import complainant_details.py
+import rowdy_sheeter.py
+import victim_info_details.py
 import time
 import base64
 from typing import Optional
