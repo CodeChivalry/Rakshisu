@@ -15,35 +15,7 @@ import base64
 from typing import Optional
 from google.auth import credentials as auth_credentials
 from google.cloud import aiplatform
-def init_sample(
-    key: str,
-    project_id: str,
-    location: str,
-    experiment: Optional[str] = None,
-    staging_bucket: Optional[str] = None,
-    credentials: Optional[auth_credentials.Credentials] = None,
-    encryption_spec_key_name: Optional[str] = None,
-    service_account: Optional[str] = None,
-):
 
-    # Initialize Google Cloud AI Platform
-    aiplatform.init(
-        project=project_id,
-        location=location,
-        experiment=experiment,
-        staging_bucket=staging_bucket,
-        credentials=credentials,
-        encryption_spec_key_name=encryption_spec_key_name,
-        service_account=service_account,
-    )
-
-# Retrieve environment variables for key, project_id, and location
-project_id = os.environ['GEMINI_PROJECT_ID']
-location = os.environ['GEMINI_LOCATION']
-key = os.environ['GEMINI_KEY']
-
-# Call the function with the variable values
-init_sample(key, project_id, location)
 def main():
     st.title("RAKSHISU")
     st.write("Choose the file types you want to work with:")
