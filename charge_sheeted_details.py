@@ -1,4 +1,4 @@
-import gemini-1.0-pro-001.py
+import gemini.py
 import pii-detection.py
 import NotoSansKannada_Condensed-Black.ttf
 import pandas as pd
