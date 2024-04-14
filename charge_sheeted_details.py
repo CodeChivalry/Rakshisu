@@ -3,6 +3,7 @@ import pii-detection.py
 import NotoSansKannada_Condensed-Black.ttf
 import pandas as pd
 import numpy as np
+import streamlit as st
 
 charge_sheeted_details_variables_object = {
     "csd_district_name_mask": {
