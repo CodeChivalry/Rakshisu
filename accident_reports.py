@@ -1,3 +1,6 @@
+import NotoSansKannada_Condensed-Black.ttf
+import gemini-1.0-pro-001.py
+import pii-detection.py
 accident_reports_variables_object = {
     "ar_district_name_mask": {
         "value": False,
