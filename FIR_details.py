@@ -1,5 +1,6 @@
 import gemini-1.0-pro-001.py
 import pii-detection.py
+import NotoSansKannada_Condensed-Black.ttf
 fir_details_data_variables_object = {
     "fd_district_name_mask": {
         "value": False,
