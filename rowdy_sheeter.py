@@ -1,3 +1,7 @@
+import gemini-1.0-pro-001.py
+import pii-detection.py
+import NotoSansKannada_Condensed-Black.ttf
+
 rowdy_sheeter_variables_object = {
     "rs_district_name_mask" : {
         "value": False,
