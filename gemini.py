@@ -29,9 +29,9 @@ def init_sample(
     )
 
 # Retrieve environment variables for key, project_id, and location
-project_id = st.secrets["GEMINI_PROJECT_ID"]
-location = st.secrets["GEMINI_LOCATION"]
-key = st.secrets["GEMINI_KEY"]
+project_id = os.environ['GEMINI_PROJECT_ID']
+location = os.environ['GEMINI_LOCATION']
+key = os.environ['GEMINI_KEY']
 
 # Call the function with the variable values
 init_sample(key, project_id, location)
