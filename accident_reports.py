@@ -1,5 +1,5 @@
 import NotoSansKannada_Condensed-Black.ttf
-import gemini-1.0-pro-001.py
+import gemini.py
 import pii-detection.py
 import pandas as pd
 import numpy as np
