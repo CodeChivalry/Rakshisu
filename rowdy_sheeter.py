@@ -1,6 +1,6 @@
 import gemini.py
 import pii.py
-import NotoSansKannada_Condensed-Black.ttf
+import NotoSansKannada_CondensedBlack.ttf
 import pandas as pd
 import numpy as np
 import streamlit as st
