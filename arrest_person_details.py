@@ -1,4 +1,4 @@
-import NotoSansKannada_Condensed-Black.ttf
+import NotoSansKannada_CondensedBlack.ttf
 import gemini.py
 import pii.py
 import pandas as pd
