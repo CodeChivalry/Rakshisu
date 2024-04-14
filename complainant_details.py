@@ -1,8 +1,9 @@
-import gemini-1.0-pro-001.py
+import gemini.py
 import pii-detection.py
 import NotoSansKannada_Condensed-Black.ttf
 import pandas as pd
 import numpy as np
+import streamlit as st
 
 complainant_details_data_variables_object = {
     "cd_district_name_mask": {
