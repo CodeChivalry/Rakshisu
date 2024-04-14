@@ -1,4 +1,4 @@
-import time
+"""import time
 import base64
 from typing import Optional
 from google.auth import credentials as auth_credentials
@@ -6,7 +6,7 @@ from google.cloud import aiplatform
 import os
 import streamlit as st
 
-"""def init_sample(
+def init_sample(
     key: str,
     project_id: str,
     location: str,
@@ -35,7 +35,6 @@ key = os.environ['GEMINI_KEY']
 
 # Call the function with the variable values
 init_sample(key, project_id, location)
-"""
 import vertexai
 from vertexai.generative_models import GenerativeModel, Part, FinishReason
 import vertexai.preview.generative_models as generative_models
@@ -98,3 +97,4 @@ def gemini(pii_type,i):
         result=generate(text1)
         for word in result:
             st.text(word.text)
+"""
