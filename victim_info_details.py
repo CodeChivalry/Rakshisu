@@ -1,4 +1,4 @@
-import gemini.py
+#import gemini.py
 import pii.py
 import NotoSansKannada_CondensedBlack.ttf
 import pandas as pd
@@ -236,7 +236,9 @@ def process_victim_info_data(victim_info_df):
                 for entity in document.entities:
                     pii_type = entity.category
                     subcategory = entity.subcategory if hasattr(entity, 'subcategory') else None
-            gemini(pii_type,gem)
+            #gemini(pii_type,gem)
+            st.write("Protection from further harm: Masking PII's of victims helps protect them from further victimization, harassment, or stalking.")
+            st.write("Compliance with the Indian Evidence Act, 1872: Section 27 of the Indian Evidence Act allows for the production of evidence to rebut the presumption of innocence, but it also protects the privacy of victims.")
             gem=gem+1
             action = st.selectbox("Action", ["Mask", "Not Mask"], key=f"Action_{i}_{string}")   
             if action == "Mask":
